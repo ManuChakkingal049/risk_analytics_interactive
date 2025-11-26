@@ -12,11 +12,11 @@ sys.path.append(str(Path(__file__).parent))
 
 # Import all module files
 from tab_correlation import render_correlation_tab
-from tab_multicollinearity import render_multicollinearity_tab
-from tab_vif import render_vif_tab
-from tab_woe import render_woe_tab
-from tab_psi import render_psi_tab
-from tab_pit_models import render_pit_models_tab
+# from tab_multicollinearity import render_multicollinearity_tab
+# from tab_vif import render_vif_tab
+# from tab_woe import render_woe_tab
+# from tab_psi import render_psi_tab
+# from tab_pit_models import render_pit_models_tab
 
 # Page configuration
 st.set_page_config(
